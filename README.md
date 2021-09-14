@@ -1,3 +1,3 @@
-# MC-FintechHW
+# FintechHW
 
 This is the awesomest tool ever!
