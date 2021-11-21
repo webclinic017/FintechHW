@@ -1,6 +1,6 @@
 # Unit 11 - Risky Business
  
-![Credit Risk](Images/credit-risk.jpg)
+![Credit Risk](../Images/credit-risk.jpg)
 
 ## Background
 
@@ -137,6 +137,7 @@ For the ensemble learners, use 100 estimators for both models.
 * Undersample the data using the Cluster Centroids algorithm. (5 points)
 * Oversample and undersample the data using the SMOTEENN algorithim. (5 points)
 * Generate the Balance Accuracy Score, Confusion Matrix and Classification Report for all of the above methods. (5 points)
+
 #### Classification Analysis - Resampling  (15 points)
 
 ##### To receive all points, your code must:
