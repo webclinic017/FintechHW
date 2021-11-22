@@ -14,17 +14,17 @@ Let us examine the future movements in the value of the Japanese Yen versus the 
 
 2. Forecasting Returns using an ARMA Model.
 
-![ARMA](Images/ARMA.png)
+![ARMA](Images/ARMA_mod.png)
 ![ARMA](Images/5_day_ARMA.png)
 
 3. Forecasting the Settle Price using an ARIMA Model.
 
-![ARIMA](Images/ARiMA.png)
+![ARIMA](Images/ARIMA_mod.png)
 ![ARIMA](Images/5_day_ARIMA.png)
 
 4. Forecasting Volatility with GARCH.
 
-![GARCH](Images/GARCH.png)
+![GARCH](Images/GARCH_mod.png)
 ![GARCH](Images/5_day_garch.png)
 
 

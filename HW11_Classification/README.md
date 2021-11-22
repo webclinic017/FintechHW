@@ -1,6 +1,6 @@
 # Risky Business
 
-![Risk](Images/Financial-Risk-Management.png)
+<img src="Images/Financial-Risk-Management.png" width="1910" height =""/>
 
 In this assignment, I'll build and evaluate several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. I will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
 
