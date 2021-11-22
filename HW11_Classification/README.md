@@ -17,7 +17,7 @@ In this assignment, I'll build and evaluate several machine learning models to p
 
 ## Resampling 
 
-## Oversampling with the Naive Random Oversampler and SMOTE algorithms
+### Oversampling with the Naive Random Oversampler and SMOTE algorithms
 
 * Balance Accuracy Scores:
     * Naive Random Oversampler: 0.9946414201183431
@@ -32,7 +32,7 @@ In this assignment, I'll build and evaluate several machine learning models to p
 
 ![report](Images/naive_smote_report.png)
 
-## Undersample with the Cluster Centroids algorithm
+### Undersample with the Cluster Centroids algorithm
 
 * Balance Accuracy Score: 0.9932813049736127
 
@@ -44,7 +44,7 @@ In this assignment, I'll build and evaluate several machine learning models to p
 
 ![report](Images/centroids_report.png)
 
-## Oversample and undersample with the SMOTEENN algorithim
+### Oversample and undersample with the SMOTEENN algorithim
 
 * Balance Accuracy Scores: 0.9946414201183431
 
