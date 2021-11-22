@@ -17,20 +17,56 @@ In this assignment, I'll build and evaluate several machine learning models to p
 
 ## Resampling 
 
-* Oversample the data using the Naive Random Oversampler and SMOTE algorithms.
+## Oversampling with the Naive Random Oversampler and SMOTE algorithms
 
-* Undersample the data using the Cluster Centroids algorithm.
+* Balance Accuracy Scores:
+    * Naive Random Oversampler: 0.9946414201183431
+    * SMOTE: 0.9946414201183431
 
-* Oversample and undersample the data using the SMOTEENN algorithim.
+* Confusion Matrix:
 
-* Generate the Balance Accuracy Score, Confusion Matrix and Classification Report for all of the above methods.
+Both models obtained exactly the same confusion matrix.
+
+![resample_matrix1](Images/naive_smote_cm.png)
+
+* Imbalanced Classification Reports:
+![report](Images/naive_smote_report.png)
+
+## Undersample with the Cluster Centroids algorithm
+
+* Balance Accuracy Score: 0.9932813049736127
+
+* Confusion Matrix:
+![resample_matrix2](Images/centroids_cm.png)
+
+* Imbalanced Classification Report:
+![report](Images/centroids_report.png)
+
+## Oversample and undersample with the SMOTEENN algorithim
+
+* Balance Accuracy Scores: 0.9946414201183431
+
+* Confusion Matrix:
+![resample_matrix1](Images/smoteenn_cm.png)
+
+* Imbalanced Classification Reports:
+![report](Images/smoteenn_report.png)
 
 
 ### Classification Analysis - Resampling
 
+1. Which model had the best balanced accuracy score?
 
+   The Naive Random Over Sampler, SMOTE and SMOTEEN all obtained the same score: 0.994
+   The Cluster Centroids came very close: 0.993
 
+2. Which model had the best recall score?
 
+    All models had an average recall score of 0.99
+
+3. Which model had the best geometric mean score?
+
+    All models had an average geometric score of 0.99
 
 
 ## Ensemble Learning
