@@ -10,9 +10,9 @@ In this assignment, I'll build and evaluate several machine learning models to p
 
 ## Notebook Files
 
-[Resampling Starter Notebook](credit_risk_resampling.ipynb)
+[Resampling Completed Notebook](credit_risk_resampling.ipynb)
 
-[Ensemble Starter Notebook](credit_risk_ensemble.ipynb)
+[Ensemble Completed Notebook](credit_risk_ensemble.ipynb)
 
 
 ## Resampling 
@@ -26,7 +26,7 @@ In this assignment, I'll build and evaluate several machine learning models to p
 * Confusion Matrix:
     * Both models obtained exactly the same confusion matrix.
     
-    * ![resample_matrix1](Images/naive_smote_cm.png)
+    ![resample_matrix1](Images/naive_smote_cm.png)
 
 * Imbalanced Classification Reports:
 
@@ -61,16 +61,16 @@ In this assignment, I'll build and evaluate several machine learning models to p
 
 1. Which model had the best balanced accuracy score?
 
-   The Naive Random Over Sampler, SMOTE and SMOTEEN all obtained the same score: 0.994
-   The Cluster Centroids came very close: 0.993
+   * The Naive Random Over Sampler, SMOTE and SMOTEEN all obtained the same score: 0.994
+   * The Cluster Centroids came very close: 0.993
 
 2. Which model had the best recall score?
 
-    All models had an average recall score of 0.99
+    * All models had an average recall score of 0.99
 
 3. Which model had the best geometric mean score?
 
-    All models had an average geometric score of 0.99
+    * All models had an average geometric score of 0.99
 
 
 ## Ensemble Learning
@@ -96,21 +96,21 @@ In this assignment, I'll build and evaluate several machine learning models to p
 
 1. Which model had the best balanced accuracy score?
 
-    The Easy Ensemble Classifier: 0.925
+    * The Easy Ensemble Classifier: 0.925
 
 
 2. Which model had the best recall score?
 
-    The Easy Ensemble Classifier: 0.94 vs. 0.76
+    * The Easy Ensemble Classifier: 0.94 vs. 0.76
 
 
 3. Which model had the best geometric mean score?
 
-    The Easy Ensemble Classifier: 0.93 vs. 0.76
+    * The Easy Ensemble Classifier: 0.93 vs. 0.76
 
 
 4. What are the top three features?
 
-    total_rec_prncp	0.081656 <br>
-    last_pymnt_amnt	0.068982 <br>
-    total_rec_int	0.059083
+    *  total_rec_prncp	0.081656 <br>
+    * last_pymnt_amnt	0.068982 <br>
+    * total_rec_int	0.059083
