@@ -24,12 +24,12 @@ In this assignment, I'll build and evaluate several machine learning models to p
     * SMOTE: 0.9946414201183431
 
 * Confusion Matrix:
-
-Both models obtained exactly the same confusion matrix.
-
-![resample_matrix1](Images/naive_smote_cm.png)
+    * Both models obtained exactly the same confusion matrix.
+    
+    * ![resample_matrix1](Images/naive_smote_cm.png)
 
 * Imbalanced Classification Reports:
+
 ![report](Images/naive_smote_report.png)
 
 ## Undersample with the Cluster Centroids algorithm
@@ -37,9 +37,11 @@ Both models obtained exactly the same confusion matrix.
 * Balance Accuracy Score: 0.9932813049736127
 
 * Confusion Matrix:
+
 ![resample_matrix2](Images/centroids_cm.png)
 
 * Imbalanced Classification Report:
+
 ![report](Images/centroids_report.png)
 
 ## Oversample and undersample with the SMOTEENN algorithim
@@ -47,9 +49,11 @@ Both models obtained exactly the same confusion matrix.
 * Balance Accuracy Scores: 0.9946414201183431
 
 * Confusion Matrix:
+
 ![resample_matrix1](Images/smoteenn_cm.png)
 
 * Imbalanced Classification Reports:
+
 ![report](Images/smoteenn_report.png)
 
 
