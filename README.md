@@ -1,4 +1,4 @@
-# FintechHW
+# Fintech Homeworks
 
 This repo contains all HWs for the FinTech Bootcamp.
 
@@ -18,4 +18,6 @@ This repo contains all HWs for the FinTech Bootcamp.
 
 8. [HW11: Classification](HW11_Classification)
 
-9. HW12: Natural Language Processing
+9. [HW12: Natural Language Processing](HW12_NLP)
+
+10. [HW13: Amazon Web Services](HW13_AWS_Lex)
